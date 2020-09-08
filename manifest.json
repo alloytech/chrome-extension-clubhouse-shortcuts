@@ -1,0 +1,14 @@
+{
+  "name": "Alloy CB Shortcut",
+  "version": "1.0",
+  "description": "Go to clubhouse ASAP",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "all_frames": true,
+      "css": ["style.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "manifest_version": 2
+}
